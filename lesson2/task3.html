@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>task3</title>
+</head>
+<body>
+  <form>
+  Name<br>
+  <input  type="text"> <br>
+
+  Email<br>
+  <input type="email"><br>
+<br>
+   Sex<br>
+  <input type="radio"  value="male">Male
+  <input type="radio"  value="female">Female <br>
+<br>
+  Current status<br>
+  <input type="checkbox" value="student">Student<br>
+  <input type="checkbox" value="employed">Employed<br>
+  <input type="checkbox" value="unemployed">Unemploued<br>
+<br>
+
+  Month and Year of birth<br>
+  
+<select name="year" size="1">
+  <option selected value="2016">2016
+  <option value="2015">2015
+  <option value="2014">2014
+  </select>
+
+<select name="month" size="1">
+  <option selected value="January">January
+  <option value="February">February
+  <option value="Marth">Marth
+  </select><br>
+  <br>
+  Skills and Tecnologies<br>
+  <select name="skills_and_tecnologies" size="10" >
+
+   <optgroup label="Tech skills">
+    <option value="1">HTML</option>
+    <option value="2">CSS</option>
+    <option value="3">JavaScript</option>
+    <option value="4">git</option>
+   </optgroup>
+
+   <optgroup label="Soft skills">
+    <option value="5">Time managment</option>
+    <option value="6">Proactivity</option>
+    <option value="7">Teamwork</option>
+    <option value="8">Leadership</option>
+   </optgroup>
+  </select> <br><br>
+  Photo<br>
+  <input type="file" name="load" value="Choose file" size="30"> <!-- только мой Хромчик выдает форму эту на русском языке...хммм..это от настроек системы зависит? или я могу на это повлиять? я погуглю, это риторический вопрос-->
+
+  <p>Comments<br>
+  <textarea rows="3" cols="20" name="comment"></textarea></p>
+  <p><input type="submit" value="Save"></p>
+
+</form>
+</body>
+</html>
