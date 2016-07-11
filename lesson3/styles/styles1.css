@@ -19,18 +19,23 @@ p:first-letter{
   font-size: 30px;
   
 }
+
 h2{
   color:orange;
 }
+
 ul{
   font-weight: bold;
 }
+
 ol{
   font-weight: normal
 }
+
 #warehouse h2{
   color:blue;
 }
+
 .fruits-list{
   color:gray;
 }
@@ -38,6 +43,7 @@ ol{
 .vegetables-list{
   color:red;
 }
+
 #warehouse .fruits-list{
   color:green;
 }
