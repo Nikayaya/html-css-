@@ -7,7 +7,13 @@ a[href*="google.com"]{
 }
 
 a[target="_blank"]:after{
-content:' \21f1';
-text-decoration:none;
+  content:" \21f1";
+  display: inline-block;
+  position: relative;
+  right: -10px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
-

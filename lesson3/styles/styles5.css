@@ -1,17 +1,9 @@
-td:nth-child(odd){
+td:nth-child(2n+3){
   background: #f2f2de;
 }
 
-tr:nth-child(2n) td:first-child{
+tr:nth-child(2n){
   background: #ddebf7;
 } 
-
-tr:nth-child(odd) td:first-child{
-  background: #fff;
-}
-
-tr:nth-child(2n) {
-  background: #ddebf7;
-}
 
 
