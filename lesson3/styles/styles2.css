@@ -1,0 +1,8 @@
+p:first-of-type{
+  font-size: larger;
+}
+p:last-of-type{
+  color:#999;
+}
+
+/* это задание прекрасно показало почему мой любимый псевдо класс first-child не всегда работает*/
