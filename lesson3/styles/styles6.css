@@ -1,35 +1,3 @@
-.red, .blue, .green{
-  display:none;
-}
-
-#red:checked~.red  {
-  background:red;
-  border-radius:6px;
-  color:#fff;
-  padding:4px;
-  display: inline;
-}
-
-#green:checked~.green {
-  background:green;
-  border-radius:6px;
-  color:#fff;
-  padding:4px;
-  display: inline;
-}
-
-#blue:checked~.blue {
-  background:blue;
-  border-radius:6px;
-  color:#fff;
-  padding:4px;
-  display: inline;
-}
-
-input[type="checkbox"]{
-  display: none;
-}
-
 label[for="red"]{
   color:red;
   text-decoration:underline;
@@ -45,14 +13,54 @@ label[for="blue"]{
   text-decoration:underline;
 }
 
-#red:not(:checked) ~label[for="red"]{
+input[type="checkbox"]{
+  display: none;
+}
+
+.red  {
+  background:red;
+  border-radius:6px;
+  color:#fff;
+  padding:4px;
+  display: inline;
+}
+
+.green {
+  background:green;
+  border-radius:6px;
+  color:#fff;
+  padding:4px;
+  display: inline;
+}
+
+.blue {
+  background:blue;
+  border-radius:6px;
+  color:#fff;
+  padding:4px;
+  display: inline;
+}
+
+#red:checked ~.red{
+  display:none;
+}
+
+#red:checked ~label[for="red"]{
   opacity:0.5;
 }
 
-#green:not(:checked) ~label[for="green"]{
+#green:checked ~.green{
+  display:none;
+}
+
+#green:checked ~label[for="green"]{
   opacity:0.5;
 }
 
-#blue:not(:checked) ~label[for="blue"]{
+#blue:checked ~.blue{
+  display:none;
+}
+
+#blue:checked ~label[for="blue"]{
   opacity:0.5;
 }
