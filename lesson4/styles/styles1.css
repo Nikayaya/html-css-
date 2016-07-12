@@ -1,0 +1,37 @@
+#container{
+  width: 100%;
+  background-color: #a64dff;
+  box-shadow:  0 0 5px rgba(0,0,0,0.5);
+  height: 35px;
+}
+nav{
+  width: 900px;
+  text-align: center;
+}
+ul{
+  padding-top: 7px;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+  font-family: 'Economica', sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+  text-shadow: 0.3px 0.3px 0.3px #fff, 0 0 0.3px #fff;
+  padding: 7px 7px;
+}
+
+li{
+  display:inline-block;
+}
+nav a.active{
+  background:#eee;
+  color:#a0a1a3;
+  padding: 7px 7px;
+}
+
+nav a:hover{
+  background:#eee;
+  color:#a0a1a3;
+  padding: 7px 7px;
+}
