@@ -1,0 +1,45 @@
+ul.pagination{
+  display: inline-block;
+  padding: 0;
+  margin-top: -10px;
+}
+
+ul.pagination li{
+  display: inline;
+  margin:0 4px;
+}
+
+ul.pagination li a{
+  color: #a64dff;
+  float: left;
+  padding: 6px 7px;
+  text-decoration: none;
+  font-family: 'Helvitica', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+.numero{
+  border: 1.5px solid #dad9d9;
+  border-radius: 3px;
+}
+
+ul li a.active{
+  color:white;
+  background: #a64dff;
+  border-radius: 3px;
+}
+
+.numero:hover, .letter:hover{
+  background-color: #a64dff;
+  color:#fff;
+  border-radius: 3px;
+}
+
+#container{
+  background-color: #fbfbfb;
+  height: 40px;
+}
+
