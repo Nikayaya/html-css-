@@ -24,6 +24,19 @@ a{
   padding: 7px 7px;
 }
 
+ #more{
+  color:#fff;
+  font-family: 'Economica', sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+  text-shadow: 0.3px 0.3px 0.3px #fff, 0 0 0.3px #fff;
+  display: inline-block;
+  float:right;
+  position: relative;
+  margin-top: -45px;
+  margin-right: 200px;
+}
+
 li{
   display:inline-block;
 }
@@ -34,7 +47,7 @@ nav a.active{
   padding: 7px 7px;
 }
 
-nav a:hover{
+nav a:hover, #more:hover{
   background:#eee;
   color:#a0a1a3;
   padding: 7px 7px;
