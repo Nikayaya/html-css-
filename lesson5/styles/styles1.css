@@ -24,6 +24,10 @@
 }
 
 #menu ul ul{
+ float: left;
+      padding: 15px 0;
+      position: absolute;
+  
   display:none;
   font-size: 70%;
   background-color: #eee;
@@ -55,6 +59,7 @@
   color:#9c9792;
   background: #eee; 
 }
+
 /*.container-main-menu{
   display:block;
   background: #1aa4ff;
