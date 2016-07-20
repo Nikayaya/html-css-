@@ -14,22 +14,21 @@
 #menu li{
   float:left;
   list-style:none;
-  width: 70px; 
-  text-align: center;
-  
+  width:70px; 
+  text-align:center;
 }
 
-#menu ul {
+#menu ul{
   font-family:'Economica';
-  font-weight: bold;
-  font-size: 110%;
-  width: 900px;
-  text-align: center;}
+  font-weight:bold;
+  font-size:110%;
+  width:900px;
+  text-align: center;
+}
 
 #menu ul ul{
   float: left;
   position: absolute; /* float и position делает подменю горизонтальным */
-
   font-size: 70%;
   background-color: #eee;
   width: 100%;
@@ -45,11 +44,10 @@
 } 
 
 
-#menu ul li:hover > ul {
+#menu ul li:hover > ul{
   display:block;
   font-size: 70%;
-  background: #eee;
-  
+  background: #eee; 
 }
 
 #menu li a:hover{
@@ -57,7 +55,7 @@
   background-color: #eee;
 }
 
-#menu ul li a.inside {
+#menu ul li a.inside{
   color:#9c9792;
   background: #eee; 
 }
