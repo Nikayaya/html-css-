@@ -2,44 +2,46 @@
 *{
   margin:0;
   padding:0;
-
 }
 
 #menu{
-  margin:40px;
-  width: 100%;
+  margin:0px;
+  width: 120%;
+  background-color: #1aa4ff;
+  height: 20px;
 }
 
 #menu li{
   float:left;
   list-style:none;
-  width: 110px; 
+  width: 70px; 
   text-align: center;
+  
 }
 
 #menu ul {
   font-family:'Economica';
   font-weight: bold;
-  font-size: 130%;
-}
+  font-size: 110%;
+  width: 900px;
+  text-align: center;}
 
 #menu ul ul{
- float: left;
-      padding: 15px 0;
-      position: absolute;
-  
-  display:none;
+  float: left;
+  position: absolute; /* float и position делает подменю горизонтальным */
+
   font-size: 70%;
   background-color: #eee;
-  color:red;
+  width: 100%;
+  margin-left: -420px;
+  margin-top: -1px;
+  display:none;
 }
 
 #menu li a{
   text-decoration: none;
   display:block;
   color:#fff;
-  background-color: #1aa4ff;
-  padding:10px;
 } 
 
 
