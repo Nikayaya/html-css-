@@ -4,6 +4,7 @@ body{
   height: 467px;
   border: 3px solid #ee8129;
   border-radius: 3px; 
+  box-shadow: -1px -1px 14px 1px #2d4160;
 }
 
 #pricing-table h3{
@@ -13,26 +14,37 @@ body{
   margin-top:-2px;
   color:#fff;
   font-size: 150%;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 #pricing-table h2{
   text-align: center;
-font-weight: lighter;
-color:#3f4042;}
+  font-weight: normal;
+  color:#3f4042;
+}
 
-#pricing-table h2 span {
+#pricing-table h2 span{
   display: block;
-  font-size:130%;
+  font-size:300%;
+  font-weight: bold;
   color: #35495a;
   background: #fff;
   border: 5px solid #fff;
   height: 100px;
   width: 100px;
-  margin: 10px auto -65px; 
+  margin-bottom: -65px;
+  margin-left: 70px; 
+  padding-bottom:20px;  
 }
 
-#pricing-table ul {
+#pricing-table h2 span sub,sup{
+  font-size: 27%;
+  position: relative;
+  top:-10px;
+  font-weight: normal;
+}
+
+#pricing-table ul{
   margin: 0 0 0 0;
   padding: 0;
   font-size: 92%;
@@ -42,7 +54,7 @@ color:#3f4042;}
   color:#888c94;
 }
 
-#pricing-table li {
+#pricing-table li{
   padding: 10px 0;
   margin-top: 1px;
   margin-left: 15px;
@@ -52,17 +64,24 @@ color:#3f4042;}
 }
 
 #pricing-table ul li:nth-child(odd){
-  background: #f5f5f6;
+  background: #edf5fd;
 }
 
 #pricing-table ul li:nth-child(even){
-  background: #edf5fd;
-}
-#pricing-table ul li:before{
-  content:url(../images/gray.png);
+  background: #f5f5f6;
 }
 
-#pricing-table .enroll-today {
+#pricing-table ul li:nth-child(even):before{
+  content:url(../images/gray.png);
+  padding-right: 10px;
+}
+
+#pricing-table ul li:nth-child(odd):before{
+  content:url(../images/task2.png);
+  padding-right: 10px;
+}
+
+#pricing-table .enroll-today{
   position: relative;
   padding: 8px 20px;
   margin: 20px 0 0 17px;
@@ -84,7 +103,7 @@ color:#3f4042;}
   box-shadow: 0 2px 0 rgba(158, 83, 29, .8), 0 2px 0 rgba(0, 0, 0, .2);
 }
 
-#pricing-table .enroll-today:hover {
+#pricing-table .enroll-today:hover{
   background-color: #ce5f05;
 }
 
