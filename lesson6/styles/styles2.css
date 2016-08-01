@@ -6,6 +6,7 @@
 header{
   display:block;
 }
+
 h1 {
   font-size: 40px;
   font-family: "Trebuchet MS";
@@ -17,6 +18,7 @@ h1 {
   top: 63.5px;
   z-index: 9;
 }
+
  span{
   color:#3170a8;
  }
@@ -57,7 +59,7 @@ h1 {
   z-index: 10;
 }
 
-.name-right {
+.name {
   font-size: 13px;
   font-family: "Trebuchet MS";
   color: rgb(48, 112, 168);
@@ -68,4 +70,27 @@ h1 {
   top: -5px;
   z-index: 14;
 }
+
+.cust{
+  font-size: 13px;
+  font-family: "Trebuchet MS";
+  color: rgb(48, 112, 168);
+  font-style: italic;
+  line-height: 1.846;
+  position: absolute;
+  left: 400px;
+  top: -5px;
+  z-index: 20;
+}
+
+.dot{
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+  line-height: 1.538;
+  position: absolute;
+  left: 140px;
+  top: 10px; 
+}
+
 
