@@ -5,6 +5,7 @@ body{
 #main-header{
   color:#41525c;
   font-size: 190%;
+  font-weight:normal;
 }
 
 #pricing-table{
@@ -21,6 +22,19 @@ body{
   height: 485px;
   position: relative;
   top:-10px;
+  background: #fff;
+}
+
+#pricing-table.standard{
+position: relative;
+left:10px;
+}
+
+#pricing-table.ultimate{
+position: relative;
+right:1010px;
+float:right;
+z-index:-1;
 }
 
 #pricing-table h3{
