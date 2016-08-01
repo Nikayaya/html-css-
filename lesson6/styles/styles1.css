@@ -4,8 +4,10 @@ body{
 
 #main-header{
   color:#41525c;
-  font-size: 190%;
-  font-weight:normal;
+  font-size: 180%;
+  font-weight:bold;
+  margin-left: 30px;
+  padding-bottom: 30px;
 }
 
 #pricing-table{
