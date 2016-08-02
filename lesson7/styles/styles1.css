@@ -1,0 +1,72 @@
+#container{
+  font-family: Helvetica, serif;
+  font-weight: bold;
+  color:rgba(0 0 0 0.5);
+  opacity: 0.8;
+  text-shadow:0 0 5px #000;
+  width: 30%;
+  text-align: justify;
+}
+
+#container p:after{
+  content:"";
+  display: inline-block;
+  width:100%;
+}
+
+#line{
+  border:1px solid #FF0000;
+}
+
+p{
+  text-align: justify;
+  line-height: 10px;
+}
+
+.v01{
+  font-size:600%;
+}
+
+.v02{
+  font-size: 550%;
+}
+
+.v03{
+  font-size: 450%;
+}
+
+.v04{
+  font-size: 400%;
+}
+
+.v05{
+  font-size: 350%;
+}
+
+.v06{
+  font-size: 300%;
+}
+
+.v07{
+  font-size: 250%;
+}
+
+.v08{
+  font-size: 200%;
+}
+
+.v09{
+  font-size: 150%;
+}
+
+.v10{
+  font-size: 100%;
+}
+
+.v15{
+  font-size: 60%;
+}
+
+.v20{
+  font-size: 50%;
+}
