@@ -2,13 +2,13 @@
   font-family: Futura;
   src: url(../fonts/futura_light_bt.ttf);
   }
+
 @font-face {
   font-family: FuturaBold;
   src: url(../fonts/Futura_XBlk_BT.ttf);
   }
 
 header {
- 
   left: 0px;
   top: 0px;
   width: 100%;
@@ -34,17 +34,18 @@ span{
 }
 
 nav{
-float:right;
-width: 50%;
-position:relative;
-top: 39px;
-right: 20em;}
-nav ul{
+  float:right;
+  width: 50%;
+  position:relative;
+  top: 39px;
+  right: 20em;
+}
 
+nav ul{
   list-style: none;
   text-transform: uppercase;
   color:#989898;
- font-size: 15px;
+  font-size: 15px;
   font-family: Arial;
 }
 
@@ -55,25 +56,55 @@ nav ul li a{
   font-width:bold;
   float:left;
   color:#989898;
-
 }
 
 nav ul li a:hover{
   color:#989898;
 }
+
 nav ul li a:visited{
   color:#989898;
 }
+
 nav ul li a.active{
   color: #3070a8;
   font-weight: bold
 }
 
 #banner{
-  background-image: url(../images/banner.jpg);
+  background-image: url(../images/Banner-1.jpg);
   background-repeat: no-repeat;
   width: 100%;
   background-size:100%;
-  
-}
-  
+  font-family: Futura;
+  color:#fff;
+  font-size: 36px;
+  text-align: center;
+  left: 259.937px;
+  top: 261.593px;
+  font-weight: lighter;
+  }
+
+  section{
+    padding-top: 150px;
+    padding-bottom: 240px;
+  } 
+
+   #banner span{
+    color:#fff;
+   }
+
+  #banner p{
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .button{
+    border: 1px solid #fff;
+    font-size: 16px;
+    padding:15px 50px;
+    text-decoration: none;
+    color:#fff;
+
+  }
+
