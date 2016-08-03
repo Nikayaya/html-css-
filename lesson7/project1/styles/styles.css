@@ -8,7 +8,7 @@
   }
 
 header {
-  position: absolute;
+ 
   left: 0px;
   top: 0px;
   width: 100%;
@@ -54,6 +54,8 @@ nav ul li a{
   padding-left: 40px;
   font-width:bold;
   float:left;
+  color:#989898;
+
 }
 
 nav ul li a:hover{
@@ -67,3 +69,11 @@ nav ul li a.active{
   font-weight: bold
 }
 
+#banner{
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size:100%;
+  
+}
+  
