@@ -1,11 +1,11 @@
- @font-face {
-    font-family: Futura;
-    src: url(../fonts/futura_light_bt.ttf);
-   }
- @font-face {
-    font-family: FuturaBold;
-    src: url(../fonts/Futura_XBlk_BT.ttf);
-   }
+@font-face {
+  font-family: Futura;
+  src: url(../fonts/futura_light_bt.ttf);
+  }
+@font-face {
+  font-family: FuturaBold;
+  src: url(../fonts/Futura_XBlk_BT.ttf);
+  }
 
 header {
   position: absolute;
@@ -13,7 +13,6 @@ header {
   top: 0px;
   width: 100%;
   height: 116px;
-  
 }
 
 h1 {
@@ -25,13 +24,46 @@ h1 {
   position: absolute;
   left: 180px;
   top: 20px;
+  display: block;
  }
 
 span{
   text-transform: uppercase;
   color:#3070a8;
   font-family: FuturaBold;
-
 }
 
+nav{
+float:right;
+width: 50%;
+position:relative;
+top: 39px;
+right: 20em;}
+nav ul{
+
+  list-style: none;
+  text-transform: uppercase;
+  color:#989898;
+ font-size: 15px;
+  font-family: Arial;
+}
+
+nav ul li a{
+  text-decoration: none;
+  display:inline-block;
+  padding-left: 40px;
+  font-width:bold;
+  float:left;
+}
+
+nav ul li a:hover{
+  color:#989898;
+}
+nav ul li a:visited{
+  color:#989898;
+}
+nav ul li a.active{
+  color: #3070a8;
+  font-weight: bold
+}
 
