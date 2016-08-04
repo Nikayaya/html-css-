@@ -1,12 +1,12 @@
 @font-face {
   font-family: Futura;
   src: url(../fonts/futura_light_bt.ttf);
-  }
+}
 
 @font-face {
   font-family: FuturaBold;
   src: url(../fonts/Futura_XBlk_BT.ttf);
-  }
+}
 
 header {
   left: 0px;
@@ -25,7 +25,7 @@ h1 {
   left: 180px;
   top: 20px;
   display: block;
- }
+}
 
 header span {
   text-transform: uppercase;
@@ -52,8 +52,8 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   display:inline-block;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
   padding-bottom: 42px;
   font-width:bold;
   float:left;
@@ -86,7 +86,7 @@ nav ul li a.active {
   left: 259.937px;
   top: 261.593px;
   font-weight: lighter;
-  }
+}
 
 section {
   padding-top: 150px;
@@ -295,13 +295,12 @@ section {
   padding-top: 50px;
   z-index: 9;
   position:inherit;
-
   text-align: center;
 }
 
 #container_comments span{
   color:#3170a8;
- }
+}
 
 .customer{
   float:left;
