@@ -278,4 +278,102 @@ section {
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
   box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset; 
 }
+/* styles for comments*/
+
+#container_comments{
+  background-image: url(../images/background_comments.jpg);
+  height: 313px;
+}
+
+header{
+  display:block;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Trebuchet MS";
+  color: rgb(238, 129, 41);
+  text-transform: uppercase;
+  line-height: 0.45;
+  position: absolute;
+  left: 513px;
+  top: 63.5px;
+  z-index: 9;
+}
+
+ span{
+  color:#3170a8;
+ }
+
+.customer{
+  float:left;
+  position:relative;
+  top:137px;
+  left:191px;
+  padding-right: 43px;
+}
+
+.text{
+  font-size: 13px;
+  font-family: "Trebuchet MS";
+  color: rgb(102, 102, 102);
+  line-height: 1.538;
+  text-align: left;
+  position: absolute;
+  left: 140px;
+  top: 35px;
+  width: 307px;
+  height: 33px;
+  z-index: 10;
+}
+
+.text{
+  font-size: 13px;
+  font-family: "Trebuchet MS";
+  color: rgb(102, 102, 102);
+  line-height: 1.538;
+  text-align: left;
+  position: absolute;
+  left:140px;
+  top: 35px;
+  width: 307px;
+  height: 33px;
+  z-index: 10;
+}
+
+.name {
+  font-size: 13px;
+  font-family: "Trebuchet MS";
+  color: rgb(48, 112, 168);
+  font-style: italic;
+  line-height: 1.846;
+  position: absolute;
+  left: 140px;
+  top: -5px;
+  z-index: 14;
+}
+
+.cust{
+  font-size: 13px;
+  font-family: "Trebuchet MS";
+  color: rgb(48, 112, 168);
+  font-style: italic;
+  line-height: 1.846;
+  position: absolute;
+  left: 400px;
+  top: -5px;
+  z-index: 20;
+}
+
+.dot{
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+  line-height: 1.538;
+  position: absolute;
+  left: 140px;
+  top: 10px; 
+}
+
+
 
