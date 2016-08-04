@@ -27,13 +27,13 @@ h1 {
   display: block;
  }
 
-span{
+#banner span {
   text-transform: uppercase;
   color:#3070a8;
   font-family: FuturaBold;
 }
 
-nav{
+nav {
   float:right;
   width: 50%;
   position:relative;
@@ -41,7 +41,7 @@ nav{
   right: 20em;
 }
 
-nav ul{
+nav ul {
   list-style: none;
   text-transform: uppercase;
   color:#989898;
@@ -49,29 +49,32 @@ nav ul{
   font-family: Arial;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   display:inline-block;
-  padding-left: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 42px;
   font-width:bold;
   float:left;
   color:#989898;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   color:#989898;
 }
 
-nav ul li a:visited{
+nav ul li a:visited {
   color:#989898;
 }
 
-nav ul li a.active{
+nav ul li a.active {
   color: #3070a8;
-  font-weight: bold
+  font-weight: bold;
+  border-bottom:3px solid #3070a8;
 }
 
-#banner{
+#banner {
   background-image: url(../images/Banner-1.jpg);
   background-repeat: no-repeat;
   width: 100%;
@@ -85,26 +88,194 @@ nav ul li a.active{
   font-weight: lighter;
   }
 
-  section{
-    padding-top: 150px;
-    padding-bottom: 240px;
-  } 
+section {
+  padding-top: 150px;
+  padding-bottom: 240px;
+} 
 
-   #banner span{
-    color:#fff;
-   }
+#banner span {
+  color:#fff;
+}
 
-  #banner p{
-    font-size: 20px;
-    font-style: italic;
-  }
+#banner p {
+  font-size: 20px;
+  font-style: italic;
+}
 
-  .button{
-    border: 1px solid #fff;
-    font-size: 16px;
-    padding:15px 50px;
-    text-decoration: none;
-    color:#fff;
+.button {
+  border: 1px solid #fff;
+  font-size: 16px;
+  padding:15px 50px;
+  text-decoration: none;
+  color:#fff;
+}
 
-  }
+#pricing_table_block h1 {
+  color:#41525c;
+  font-size: 180%;
+  font-weight:bold;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  position: inherit;
+  text-align: center;
+}
+
+#pricing-table {
+  width: 296px;
+  height: 467px;
+  border: 3px solid #ee8129;
+  border-radius: 5px; 
+  box-shadow: -1px -1px 14px 1px #2d4160;
+  display:inline-block;
+  margin-top: 20px;
+  font-family: 'Helvitica', sans-serif;
+}
+
+#container_pricing_all{
+  text-align: center;
+}
+
+#pricing-table.best-value {
+  height: 485px;
+  position: relative;
+  top:-10px;
+  background: #fff;
+}
+
+#pricing-table.standard {
+  position: relative;
+  left:10px;
+}
+
+#pricing-table.ultimate {
+  position: relative;
+  right:10px;
+  z-index:-1;
+}
+
+#pricing-table h3 {
+  text-align: center;
+  background: #ee8129;
+  padding: 30px;
+  margin-top:-2px;
+  color:#fff;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#pricing-table.standard h3 {
+  background: #37c2d3;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#pricing-table.standard, #pricing-table.ultimate {
+  border:1px solid #e8eaec;
+  box-shadow: none;
+}
+
+#pricing-table.ultimate h3 {
+  background: #1cb79a;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#pricing-table h2 {
+  text-align: center;
+  font-weight: bold;
+  color:#3f4042;
+}
+
+#pricing-table h2 span {
+  display: block;
+  font-size:300%;
+  font-weight: bold;
+  color: #35495a;
+  background: #fff;
+  border: 5px solid #fff;
+  height: 100px;
+  width: 100px;
+  margin-bottom: -65px;
+  margin-left: 70px; 
+  padding-bottom:20px;  
+}
+
+#pricing-table h2 span sub,sup {
+  font-size: 27%;
+  position: relative;
+  top:-10px;
+  font-weight: normal;
+}
+
+#pricing-table ul {
+  margin: 0 0 0 0;
+  padding: 0;
+  font-size: 92%;
+  font-weight: normal;
+  list-style: none;
+  text-align: left;
+  color:#888c94;
+}
+
+#pricing-table li {
+  padding: 10px 0;
+  margin-top: 1px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 15px;
+  padding-left: 40px;
+}
+
+#pricing-table ul li:nth-child(odd) {
+  background: #edf5fd;
+}
+
+#pricing-table ul li:nth-child(even) {
+  background: #f5f5f6;
+}
+
+#pricing-table ul li:nth-child(even):before {
+  content:url(../images/gray.png);
+  padding-right: 10px;
+}
+
+#pricing-table ul li:nth-child(odd):before {
+  content:url(../images/task2.png);
+  padding-right: 10px;
+}
+
+#pricing-table .enroll-today {
+  position: relative;
+  padding: 8px 20px;
+  margin: 20px 0 0 17px;
+  width: 226px; 
+  height: 23px;
+  color: #fff;
+  text-align: center;
+  font: bold 14px Arial, Helvetica;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;       
+  background-color: #ee8129;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;     
+  text-shadow: 0 1px 0 #b3560b;        
+  -moz-box-shadow: 0 1px 0 rgba(158, 83, 29, .8), 0 2px 0 rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 1px 0 rgba(158, 83, 29, .8), 0 2px 0 rgba(0, 0, 0, .2);
+  box-shadow: 0 2px 0 rgba(158, 83, 29, .8), 0 2px 0 rgba(0, 0, 0, .2);
+}
+
+#pricing-table .enroll-today:hover {
+  background-color: #ce5f05;
+}
+
+#pricing-table .enroll-today:active, #pricing-table .enroll-today:focus {
+  background-color: #ee8129;   
+  top: 2px;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset; 
+}
 
