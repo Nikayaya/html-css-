@@ -1,0 +1,30 @@
+
+
+.form-wrapper-search{
+  border: 1px solid #ffcc66;
+  width:30%;
+  height:3em;
+  padding:5px;
+  background-color:#ffcc66;
+  position: absolute;
+}
+.form-wrapper-search:after{
+  content:"";
+  border:30px solid transparent;
+  border-left: 20px solid #ffcc66; 
+  position:relative;
+  float:right;
+  top:-62px;
+  left:56px;
+
+
+
+}
+.form-wrapper-search p {
+  font-size:80%;
+  margin-top:3px;
+  font-weight:bold;
+}
+.form-wrapper-search #search {
+  width:80%;
+}
